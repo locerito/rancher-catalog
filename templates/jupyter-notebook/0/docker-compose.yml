@@ -1,5 +1,5 @@
 jupyter:
-  image: jupyter/notebook
+  image: jupyter/minimal-notebook
   expose:
     - ${exposed_port}
   ports:
