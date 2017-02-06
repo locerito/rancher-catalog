@@ -1,6 +1,6 @@
 jupyter:
   image: jupyter/notebook
   expose:
-    - 8888
+    - ${exposed_port}
   ports:
-    - 8888:8888
+    - "${port_forward}"
