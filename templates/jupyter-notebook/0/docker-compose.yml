@@ -5,4 +5,4 @@ jupyter:
   ports:
     - "${port_forward}"
   external_links:
-    - ${port_forward}
+    - ${external_links}
