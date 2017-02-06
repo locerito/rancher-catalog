@@ -1,0 +1,5 @@
+name: Jupyter HUB
+description: |
+  (Experimental) A multi-user server for Jupyter notebooks
+version: 0.4.1-lnb1
+category: Development
