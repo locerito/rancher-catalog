@@ -2,8 +2,6 @@
   name: "jupyter-notebook"
   version: "0.1-rancher2"
   description: "Jupyter Notebook"
-  uuid: jupyter-notebook-0
-  minimum_rancher_version: v0.46.0
   questions:
     - variable: exposed_port
       label: "Port exposed"
@@ -11,3 +9,9 @@
       default: 8888
       required: true
       type: "int"
+    - variable: port_forward
+      label: "Port forwards"
+      description: "Define port forwards."
+      default: "8888:8888"
+      required: false
+      type: "string"

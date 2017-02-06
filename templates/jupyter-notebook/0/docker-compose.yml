@@ -3,4 +3,4 @@ jupyter:
   expose:
     - ${exposed_port}
   ports:
-    - "8888:8888"
+    - "${port_forward}"
