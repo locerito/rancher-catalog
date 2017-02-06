@@ -1,17 +1,17 @@
-catalog:
+.catalog:
   name: "jupyter-notebook"
   version: "0.1-rancher2"
   description: "Jupyter Notebook"
   questions:
     - variable: exposed_port
       label: "Port exposed"
-      description: | Define exposed port.
+      description: "Define exposed port."
       default: 8888
-      required: "false"
-      type: int
+      required: true
+      type: "int"
     - variable: port_forward
       label: "Port forwards"
-      description: | Define port forwards.
+      description: "Define port forwards."
       default: "8888:8888"
       required: false
-      type: string
+      type: "string"
