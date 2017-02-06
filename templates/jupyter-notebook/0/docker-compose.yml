@@ -1,5 +1,5 @@
 jupyter:
-  image: docker pull jupyter/notebook
+  image: jupyter/notebook
   expose:
     - 8888
   ports:
