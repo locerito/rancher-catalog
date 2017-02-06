@@ -1,8 +1,6 @@
-version: "2"
-services:
-  jupyter:
-    image: docker pull jupyter/notebook
-    expose:
-      - 8888
-    ports:
-      - 8888:8888
+jupyter:
+  image: docker pull jupyter/notebook
+  expose:
+    - 8888
+  ports:
+    - 8888:8888

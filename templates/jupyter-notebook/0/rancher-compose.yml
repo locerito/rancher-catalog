@@ -1,7 +1,6 @@
-version: '2'
 catalog:
   name: "jupyter-notebook"
-  version: "0-rancher2"
+  version: "0.1-rancher2"
   questions:
     - variable: expose
       label: "Port exposed"

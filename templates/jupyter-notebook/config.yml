@@ -1,6 +1,5 @@
-name: Jupyter Notebook
+name: Jupyter-Notebook
 description: |
-  # Description of the Catalog Entry
-version: 0-rancher2
+  Jupyter Notebook
+version: 0.1-rancher2
 category: Analytics
-maintainer: Bluetab Solutions S.l.
