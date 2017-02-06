@@ -15,3 +15,8 @@
       default: "8888:8888"
       required: false
       type: "string"
+    - variable: external_links
+      label: "External links"
+      description: "Define external links."
+      required: false
+      type: "string"
