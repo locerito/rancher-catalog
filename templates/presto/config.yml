@@ -1,0 +1,5 @@
+name: Presto
+description: |
+  Presto
+version: 0.1-rancher2
+category: DB

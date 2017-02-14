@@ -1,0 +1,9 @@
+# Reference the service that you want to extend
+version: '2'
+services:
+  coordinator-1:
+    scale: 1
+  worker-1:
+    scale: 1
+  worker-2:
+    scale: 1
