@@ -1,0 +1,8 @@
+name: OpenDataBusUserEnvironment
+description: |
+  User Environment of the Open Data Bus system
+version: 3
+category: 
+maintainer: BlueTab
+license: Apache
+projectURL: http://www.bluetab.net

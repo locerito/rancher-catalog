@@ -1,0 +1,12 @@
+.catalog:
+  name: OpenDataBusUserEnv
+  version: 1
+  description: "Open Data Bus User Environment"
+  uuid: opendatabususerenv-1
+  questions:
+    - variable: "datanodes"
+      description: "Number of data nodes for HDFS."
+      label: "Number of Datanodes:"
+      required: true
+      default: 1
+      type: "int"

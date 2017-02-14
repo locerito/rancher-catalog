@@ -1,0 +1,18 @@
+version: "2"
+services:
+
+  notebook:
+    container_name: notebook
+    image: zeppelin
+    networks: ["vnet"]
+    ports:
+      - 8880:8880
+    expose:
+      - 8880
+    environment: 
+      ZEPPELIN_PORT: 8880
+
+networks:
+  vnet:
+    external:
+      name: vnet 

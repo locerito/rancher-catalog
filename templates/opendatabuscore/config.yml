@@ -1,0 +1,8 @@
+name: OpenDataBusCore
+description: |
+  Core of the Open Data Bus system
+version: 1
+category: 
+maintainer: BlueTab
+license: Apache
+projectURL: http://www.bluetab.net
